@@ -1,0 +1,14 @@
+## Key takeaways
+
+Main takeaways for this lab:
+
++ A tenant represents your organization and helps you to manage a specific instance of Microsoft cloud services for your internal and external users.
++ Microsoft Entra ID has user and guest accounts. Each account has a level of access specific to the scope of work expected to be done.
++ Groups combine together related users or devices. There are two types of groups including Security and Microsoft 365.
++ Group membership can be statically or dynamically assigned.
+
+Least-Privilege Principles and RBAC Explained
+
+Least-Privilege Principle: A core security concept where you give users, applications, or processes only the absolute minimum permissions necessary to perform their jobs—nothing more. For example, a helpdesk user should be able to reset passwords, but they should never have permissions to delete virtual networks or access financial billing data. This limits the "blast radius" if an account is compromised.
+
+RBAC (Role-Based Access Control): Azure's system for managing who has access to cloud resources and what they can do with them. Instead of giving permissions to individuals one by one, you assign a Role (like Contributor, Reader, or a custom role) to a user or group at a specific Scope (such as a subscription, a resource group, or a single virtual machine).
